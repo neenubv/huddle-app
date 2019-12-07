@@ -1,0 +1,38 @@
+/* .scheduler-component {
+    float: left;
+    width: 70%;
+}
+
+.treeview-component {
+    position: relative;
+    left: 80px;
+}
+.treeview-title {
+    position: relative;
+    left: 140px;
+} */
+
+.scheduler-title-container {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+
+.treeview-title-container {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    font-weight: 500;
+}
+
+.scheduler-component {
+    float: left;
+    width: 80%;
+}
+
+.treeview-component {
+    display: inline-block;
+    width: 20%;
+    overflow: auto;
+    height: 800px;
+}

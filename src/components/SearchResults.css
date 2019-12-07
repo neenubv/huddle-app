@@ -1,0 +1,48 @@
+.attractions_list{
+    display: flex;
+    flex-direction: row  ;
+    position: relative;
+    left: 2px;
+    margin:5px;
+    padding: 1px;
+    }
+    .icon_style{
+    width:50px;
+    height:50px;
+    padding-right: 20px;
+    }
+    .results{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    .placeName_style{
+    width:200px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    }
+    
+    .placeName_style .review_style {
+        visibility: hidden;
+     
+    }
+    .placeName_style .dollar_style {
+        visibility: hidden;
+    }
+    
+    .placeName_style:hover .review_style{
+        display: block;
+        visibility: visible;
+        background-color: white;
+        color:black;
+        width: 500px;
+    }
+    .placeName_style:hover .dollar_style{
+        display: block;
+        visibility: visible;
+        background-color: white;
+        color:black;
+        width: 500px;
+    }
